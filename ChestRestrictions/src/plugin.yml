@@ -1,0 +1,11 @@
+name: ChestRestrictions
+main: hide92795.bukkit.plugin.chestrestrictions.ChestRestrictions
+version: 1.6.2_1
+description: Add permission to open chest
+author: hide92795
+depend: [hide92795CoreLib]
+softdepend: [MCBansDetector]
+
+commands:
+  chestrestrictions-reload:
+    permission: chestrestrictions.reload
